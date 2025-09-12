@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodistaa</title>
+    <link rel="icon" href="assets/image/favicon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/new-style.css">
+    <link rel="stylesheet" href="assets/css/new-responsive-css.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/image/logo.png" alt="#" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Our Businesses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Partner with us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="fixed-space-header">
+            <span></span>
+        </div>
+    </header>
+
+    <section>
+        <div class="contact-page-section">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-12 mb-4">
+                                <div class="contact-top-heading">
+                                    <h2>VISIT US</h2>
+                                    <h1>Contact Us</h1>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-12 mb-4">
+                                <div class="contact-page-card min-h-200">
+                                    <h3 class="contact-page-card-heading">Corporate Office</h3>
+                                    <p class="contact-details-text">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        310, Fortune Business Hub, Science City Road, Ahmedabad, Gujarat 380060
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-12 mb-4">
+                                <div class="contact-page-card min-h-200">
+                                    <h3 class="contact-page-card-heading">Contact Details</h3>
+                                    <a href="tel:+917738999943" class="contact-details-text">
+                                        <i class="fa-solid fa-phone"></i>
+                                        +91 7738999943
+                                    </a>
+                                    <a href="tel:+917738999943" class="contact-details-text">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        info@omdsolutions.com
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="contact-section-right">
+                            <h4 class="contact-form-heading">Contact US
+                            </h4>
+                            <div class="contact-form-card">
+                                <form class="needs-validation" novalidate>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-12 col-sm-6 mb-3 mb-sm-4">
+                                            <label for="contact-name" class="form-label">Full Name</label>
+                                            <input type="text" class="form-control" id="contact-name" required
+                                                placeholder="Enter Full Name">
+                                            <div class="invalid-feedback">Please enter your full name.</div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-12 col-sm-6 mb-3 mb-sm-4">
+                                            <label for="contact-mail" class="form-label">Email Address</label>
+                                            <input type="email" class="form-control" id="contact-mail" required
+                                                placeholder="Enter Email Address">
+                                            <div class="invalid-feedback">Please enter your email address.</div>
+                                        </div>
+                                        <div class="col-md-12 mb-3 mb-sm-4">
+                                            <label for="MobileInput1" class="form-label">Mobile Number</label>
+                                            <div class="form-mobile-input-group">
+                                                <select class="form-select form-control input-group-text"
+                                                    aria-label="country code">
+                                                    <option value="91" selected>+91</option>
+                                                    <option value="1">+1</option>
+                                                    <option value="2">+2</option>
+                                                    <option value="3">+3</option>
+                                                </select>
+                                                <input type="number" class="form-control mobile-control hide-number-arrow NumberValidation"
+                                                    id="MobileInput1" placeholder="Enter Mobile Number" required oninput="this.value = this.value.slice(0, 10);">
+                                                <div class="invalid-feedback">Please enter your mobile number.</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 mb-3 mb-sm-4">
+                                            <label for="service-select" class="form-label">Service</label>
+                                            <select class="form-select form-control" id="service-select" required>
+                                                <option value="" disabled selected>Select a Service</option>
+                                                <option value="fleet-management">Fleet Management</option>
+                                                <option value="asset-tracking">Asset Tracking</option>
+                                                <option value="logistics-software">Logistics Software</option>
+                                                <option value="it-consultancy">IT Consultancy</option>
+                                            </select>
+                                            <div class="invalid-feedback">Please select a service.</div>
+                                        </div>
+                                        <div class="col-md-12 mb-3 mb-sm-4">
+                                            <label for="comment-input" class="form-label">Message</label>
+                                            <div class="comment-input-group">
+                                                <textarea class="form-control" id="comment-input" rows="3"
+                                                    placeholder="Enter your message here" required></textarea>
+                                                <span class="input-comment-icon"><i
+                                                        class="fa-solid fa-message"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="w-100">
+                                                <button class="btn btn-primery ms-auto d-block" type="submit">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- <div class="contact-page-card">
+                            <div class="contact-socials-align">
+                                <h3 class="contact-social-heading">Follow Us</h3>
+                                <div class="contact-socials-nav">
+                                    <a href="#" class="contact-socials-links">
+                                        <img src="assets/img/facebook.png" alt="#" class="img-fluid">
+                                    </a>
+                                    <a href="#" class="contact-socials-links">
+                                        <img src="assets/img/instagram.png" alt="#" class="img-fluid">
+                                    </a>
+                                    <a href="#" class="contact-socials-links">
+                                        <img src="assets/img/linkedin.png" alt="#" class="img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="footer-card">
+                            <h4>Customer App</h4>
+                            <div class="app-link-btns">
+                                <a href="#" class="app-link-botton">
+                                    <img src="assets/image/g-play.png" alt="#" class="img-fluid">
+                                </a>
+                                <a href="#" class="app-link-botton">
+                                    <img src="assets/image/app-store.png" alt="#" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="footer-card">
+                            <h4>Partner App</h4>
+                            <div class="app-link-btns">
+                                <a href="#" class="app-link-botton">
+                                    <img src="assets/image/g-play.png" alt="#" class="img-fluid">
+                                </a>
+                                <a href="#" class="app-link-botton">
+                                    <img src="assets/image/app-store.png" alt="#" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-6 mb-4">
+                        <div class="footer-card">
+                            <h4>Follow Us</h4>
+                            <div class="social-link-btns">
+                                <a href="#" class="app-link-botton">
+                                    <img src="assets/image/fb.png" alt="#" class="img-fluid">
+                                </a>
+                                <a href="#" class="app-link-botton">
+                                    <img src="assets/image/insta.png" alt="#" class="img-fluid">
+                                </a>
+                                <a href="#" class="app-link-botton">
+                                    <img src="assets/image/linkedin.png" alt="#" class="img-fluid">
+                                </a>
+                                <a href="#" class="app-link-botton">
+                                    <img src="assets/image/youtube.png" alt="#" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-6 mb-4">
+                        <div class="footer-logo">
+                            <img src="assets/image/footer-logo.png" alt="#" class="img-fluid">
+                        </div>
+                        <div class="call-action">
+                            <a href="tel:+910123456789">
+                                <i class="fa-solid fa-phone"></i>
+                                +91-12345 12314
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-pages">
+                    <div class="footer-links-align">
+                        <ul>
+                            <li>
+                                <a href="blogs.html" class="footer-link">Blogs</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Refund & cancellation policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            <p>Copyright © <span> 2024 Rodistaa </span> All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- js start here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        $(window).on('scroll', function () {
+            if ($(this).scrollTop() > 400) {
+                $('.header').addClass('header-fix');
+            } else {
+                $('.header').removeClass('header-fix');
+            }
+        });
+    </script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            function setEqualHeightCards() {
+                var maxHeight = 0;
+                $('.equal-height-card').each(function () {
+                    var thisHeight = $(this).outerHeight();
+                    if (thisHeight > maxHeight) {
+                        maxHeight = thisHeight;
+                    }
+                });
+                $('.equal-height-card').height(maxHeight);
+            }
+
+            setEqualHeightCards();
+
+            $(window).resize(function () {
+                $('.equal-height-card').css('height', 'auto'); // Reset height
+                setEqualHeightCards();
+            });
+        });
+    </script>
+</body>
+
+</html>

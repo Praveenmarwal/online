@@ -1,0 +1,432 @@
+@media (max-width:1399.98px) {
+    .second-center-card .first-svg {
+        transform: translate(-50%, -50%) scale(.8);
+    }
+
+    .heading {
+        font-size: 60px;
+        margin-bottom: 16px;
+    }
+
+    .hero-text {
+        font-size: 18px;
+    }
+
+    .second-cards-align .second-card .scond-card-left p {
+        font-size: 26px;
+    }
+
+    .sub-heading,
+    .simple-sub-heading {
+        font-size: 42px;
+    }
+
+    .scond-card-right h4,
+    .subs-plan-table table thead .table-head h4,
+    .platform-build-card h3,
+    .workflow-step-card h3 {
+        font-size: 20px;
+    }
+
+    .subs-plan-table table tbody tr th,
+    .whowe-right p,
+    .port-card-content p,
+    .platform-build-card p,
+    .grow-transport-content ul li p,
+    .workflow-step-card p {
+        font-size: 16px;
+    }
+
+    .subs-plan-table table tbody tr th::before {
+        right: -20px;
+        top: 8px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .subs-plan-table table thead .table-head p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .subs-plan-table table thead .table-head {
+        min-height: 100px;
+        border-radius: 16px 16px 0 0;
+    }
+
+    .subs-plan-table table tbody tr td div p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .who-we-tabs .who-we-pills .nav-link {
+        padding-bottom: 30px;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    .port-card-content h3 {
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+
+    .port-img {
+        max-width: 160px;
+        min-width: 160px;
+    }
+
+    .btn-primery {
+        font-size: 18px;
+    }
+
+    .grow-transport-card {
+        padding: 32px;
+        border-radius: 30px;
+    }
+
+    .second-cards-align .second-card.center1 {
+        right: 40px;
+    }
+
+
+    .second-cards-align .second-card.center2 {
+        left: 40px;
+    }
+
+    @keyframes rightmove {
+        0% {
+            right: 0;
+        }
+
+        100% {
+            right: 40px;
+        }
+    }
+
+    @keyframes leftmove {
+        0% {
+            left: 0;
+        }
+
+        100% {
+            left: 40px;
+        }
+    }
+
+    .second-cards-align .second-card .scond-card-left {
+        width: 50px;
+        min-width: 50px;
+    }
+}
+
+@media (max-width : 1199.98px) {
+    .subs-plan-table table {
+        min-width: 1180px;
+    }
+
+    .header .navbar .navbar-nav {
+        gap: 10px;
+    }
+
+    .second-center-card .first-svg {
+        transform: translate(-50%, -50%) scale(.7);
+    }
+
+    .second-center-card h3 {
+        font-size: 28px;
+    }
+
+    .second-center-card {
+        width: 180px;
+        height: 180px;
+    }
+
+    .app-carouselcard .owl-stage .owl-item {
+        margin-top: 0;
+    }
+
+    .footer-card h4 {
+        font-size: 18px;
+    }
+
+    .navbar-brand {
+        width: 200px;
+    }
+
+    .fixed-space-header span {
+        height: 64px;
+    }
+
+    .social-link-btns {
+        gap: 20px;
+    }
+
+
+
+    .second-cards-align .second-card.center1 {
+        right: 20px;
+    }
+
+    .second-cards-align .second-card.center2 {
+        left: 20px;
+    }
+
+    @keyframes rightmove {
+        0% {
+            right: 0;
+        }
+
+        100% {
+            right: 20px;
+        }
+    }
+
+    @keyframes leftmove {
+        0% {
+            left: 0;
+        }
+
+        100% {
+            left: 20px;
+        }
+    }
+}
+
+@media (max-width:991.98px) {
+    .heading {
+        font-size: 44px;
+    }
+
+    .hero-custom-btns .slider_nav button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hero-custom-btns {
+        padding: 50px 50px 0 0;
+    }
+
+    .sub-heading,
+    .simple-sub-heading {
+        font-size: 28px;
+    }
+
+    .second-center-card {
+        display: none;
+    }
+
+    .second-cards-align .second-card.center1.active,
+    .second-cards-align .second-card.center2.active {
+        animation: none;
+        left: auto;
+        right: auto;
+    }
+
+    .second-cards-align {
+        gap: 24px;
+        align-items: normal;
+    }
+
+    .second-cards-align .second-card {
+        width: calc(50% - 12px);
+        gap: 12px;
+        background: #fbf0f0;
+        border-radius: 12px;
+    }
+
+    .who-we-pills {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .who-we-tabs .who-we-pills .nav-link {
+        padding: 0 0 10px;
+        border-bottom: 0;
+    }
+
+    .who-we-tabs .who-we-pills .nav-link:last-child {
+        padding: 0 0 10px;
+        border-bottom: 0;
+    }
+
+    .who-we-tabs {
+        padding: 0;
+    }
+
+    .app-prod-content h3 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .plat-png-bg .plat-bg-img2,
+    .plat-png-bg .plat-bg-img {
+        max-width: 200px;
+    }
+
+    .platform-build-card {
+        background: #FFEFEF;
+    }
+
+    .platform-build-card:hover,
+    .platform-build-card:focus {
+        box-shadow: 0 0 20px #e0e0e0;
+    }
+
+    .sub-heading,
+    .simple-sub-heading,
+    .grow-transport-content ul {
+        margin-bottom: 16px;
+    }
+
+    .btn-primery,
+    .hero-text {
+        font-size: 16px;
+    }
+
+    .social-link-btns {
+        gap: 10px;
+    }
+
+    .app-link-btns {
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .app-link-botton {
+        max-width: 120px;
+    }
+
+    .call-action a {
+        font-size: 16px;
+    }
+
+    .footer {
+        padding: 60px 0 30px;
+    }
+
+    .footer-links-align ul {
+        flex-wrap: wrap;
+        list-style: none;
+        max-width: 100%;
+        margin: 20px auto 0;
+        gap: 10px 20px;
+        padding: 0;
+    }
+
+    .footer .row {
+        padding-bottom: 12px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .second-cards-align .second-card {
+        flex-direction: column;
+    }
+
+    .second-cards-align .second-card .scond-card-left {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .second-cards-align .second-card .scond-card-left img {
+        width: 40px;
+    }
+
+    .second-cards-align {
+        gap: 16px;
+    }
+
+    .second-cards-align .second-card {
+        width: calc(50% - 8px);
+        padding: 12px;
+    }
+
+    .workflow-card .bg-svg {
+        display: none;
+    }
+
+    .app-link-btns {
+        flex-direction: row;
+    }
+
+    .who-we-tabs .who-we-pills .nav-link {
+        font-size: 16px;
+    }
+
+    .sub-heading {
+        padding: 0;
+    }
+
+    .sub-heading::before,
+    .sub-heading::after {
+        display: none;
+    }
+
+    .app-prod-card {
+        margin: 10px;
+    }
+
+    .footer-logo {
+        max-width: 94px;
+        min-width: 94px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:575.98px) {
+    .portfoilo-card {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .second-cards-align .second-card {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .second-cards-align .second-card .scond-card-left {
+        display: block;
+        width: fit-content;
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+    .old-tabs-section {
+        .tabs-section .nav-pills .nav-item .nav-link {
+            font-size: var(--font22);
+            padding: 10px 30px;
+        }
+
+        .tabs-section .tabs-card h3 {
+            font-size: var(--font24);
+        }
+
+        .tabs-section .tabs-card .sub-text {
+            font-size: var(--font16);
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .old-tabs-section {
+        .tabs-section .nav-pills .nav-item .nav-link {
+            font-size: var(--font18);
+            padding: 8px 20px;
+        }
+
+        .tabs-section .tabs-card h3 {
+            font-size: var(--font20);
+        }
+
+        .tabs-section .tabs-card .sub-text {
+            font-size: var(--font14);
+        }
+    }
+}
